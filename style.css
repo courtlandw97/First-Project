@@ -1,3 +1,12 @@
+html {
+    background: url('https://cdn.pixabay.com/photo/2016/11/01/22/34/rise-1789903_960_720.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+
 h1 {
     font-family: 'Josefin Slab', serif;
     font-size: 75px;
@@ -8,25 +17,23 @@ h1 {
 }
 
 
-#nav ul
-{
+
+#nav ul {
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
 
     margin-top: 200px;
 
     list-style-type: none;
-
-
 }
 
 
 
-#nav li
-{
+
+#nav li {
     display: inline;
 
-    margin: 0px 15px;
+    margin: 0 15px;
     padding: 5px;
 
     color: rgba(11, 77, 22, .52);
@@ -36,16 +43,9 @@ h1 {
 
 
 
-#nav li:hover {
-    background-color: rgba(98, 71, 12, 0.15);
-}
 
-html {
-  background: url("https://cdn.pixabay.com/photo/2016/11/01/22/34/rise-1789903_960_720.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+#nav li:hover {
+    background-color: rgba(98, 71, 12, .15);
 }
 
 
@@ -58,6 +58,7 @@ html {
 
     text-align: center;
 }
+
 
 a:link {
   text-decoration: none;
